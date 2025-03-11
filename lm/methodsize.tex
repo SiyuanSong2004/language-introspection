@@ -1,0 +1,30 @@
+
+\usepackage{booktabs}
+\usepackage{dcolumn}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l D{.}{.}{7.7}}
+\toprule
+ & \multicolumn{1}{c}{estimation} \\
+\midrule
+Intercept      & 1.6436^{***}  \\
+               & (0.0147)      \\
+Meta           & -0.5758^{***} \\
+               & (0.0205)      \\
+log model size & 0.0305^{***}  \\
+               & (0.0047)      \\
+Meta:log model & 0.2211^{***}  \\
+               & (0.0069)      \\
+\midrule
+AIC            & 295735.0400   \\
+BIC            & 295778.1270   \\
+Log Likelihood & -147863.5200  \\
+Deviance       & 295727.0400   \\
+\bottomrule
+\multicolumn{2}{l}{\scriptsize{$^{***}p<0.001$; $^{**}p<0.01$; $^{*}p<0.05$}}
+\end{tabular}
+\caption{Statistical models}
+\label{table:coefficients}
+\end{center}
+\end{table}

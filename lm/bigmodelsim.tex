@@ -1,0 +1,27 @@
+
+\usepackage{booktabs}
+\usepackage{dcolumn}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l D{.}{.}{2.6} D{.}{.}{2.5} D{.}{.}{2.7} D{.}{.}{2.5} D{.}{.}{2.5} D{.}{.}{2.5}}
+\toprule
+ & \multicolumn{1}{c}{exp1(filtered)} & \multicolumn{1}{c}{exp1(unfiltered)} & \multicolumn{1}{c}{wikipedia} & \multicolumn{1}{c}{news} & \multicolumn{1}{c}{nonsense} & \multicolumn{1}{c}{randomseq} \\
+\midrule
+Intercept    & 0.1406^{**} & 0.3854^{*} & -0.2688      & -0.1654  & -0.0526  & -0.0454  \\
+             & (0.0521)    & (0.1559)   & (0.1430)     & (0.4368) & (0.1607) & (0.1612) \\
+directdirect & 0.0294      & 0.0367     & 0.6456^{***} & 0.5926   & 0.2571   & 0.2754   \\
+             & (0.0498)    & (0.1549)   & (0.1416)     & (0.4362) & (0.1595) & (0.1599) \\
+baseinstruct & 0.0119      & 0.0046     & 0.0606       & 0.0303   & 0.0110   & 0.0027   \\
+             & (0.0289)    & (0.0341)   & (0.0345)     & (0.0397) & (0.0372) & (0.0381) \\
+samefamily   & -0.0208     & 0.0192     & 0.0727^{*}   & 0.0135   & -0.0019  & -0.0249  \\
+             & (0.0303)    & (0.0366)   & (0.0359)     & (0.0418) & (0.0363) & (0.0364) \\
+other        & -0.0152     & -0.0090    & 0.1039^{**}  & 0.0469   & 0.0499   & 0.0550   \\
+             & (0.0427)    & (0.0577)   & (0.0340)     & (0.0478) & (0.0367) & (0.0356) \\
+\bottomrule
+\multicolumn{7}{l}{\scriptsize{$^{***}p<0.001$; $^{**}p<0.01$; $^{*}p<0.05$}}
+\end{tabular}
+\caption{Statistical models}
+\label{table:coefficients}
+\end{center}
+\end{table}

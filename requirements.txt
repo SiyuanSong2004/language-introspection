@@ -1,0 +1,18 @@
+bitsandbytes==0.45.0
+minicons==0.3.9
+numpy @ file:///croot/numpy_and_numpy_base_1708638617955/work/dist/numpy-1.26.4-cp39-cp39-linux_x86_64.whl#sha256=6094eeedd869502faa0fd0a8c5ad3a70c5779be06ddd1feb7627e5c212fac420
+pandas==2.2.0
+requests==2.32.3
+scipy==1.13.1
+torch==2.5.1
+torchvision==0.20.1
+tqdm==4.67.1
+transformers==4.49.0
+nltk @ file:///opt/conda/conda-bld/nltk_1645628263994/work
+newspaper3k==0.2.8
+requests @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_4fp_3tflo8/croot/requests_1707355574897/work
+requests-file @ file:///Users/ktietz/demo/mc3/conda-bld/requests-file_1629455781986/work
+requests-toolbelt @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_d4z1wb6cpk/croot/requests-toolbelt_1690874009769/work
+scipy @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_7e16tat7za/croot/scipy_1701295051536/work/dist/scipy-1.11.4-cp39-cp39-macosx_10_9_x86_64.whl#sha256=42e0b6f982f0e3a6b9352d27be67b77ec3e1a30336c3b4064e43ced7ef907267
+wikipedia==1.4.0
+beautifulsoup4 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_bczxn9gqkq/croot/beautifulsoup4-split_1681493044307/work

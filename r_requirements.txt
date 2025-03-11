@@ -1,0 +1,11 @@
+lme4
+tidyverse
+forcats
+psych
+patchwork
+plotrix
+lmerTest
+ggtext
+showtext
+viridis
+texreg
