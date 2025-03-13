@@ -295,7 +295,7 @@ ggsave("figures/expr2_tend_new.pdf", width = 12, height = 8, dpi = 300)
 
 ## expr 1 and expr 2 overall (Appendix B)
 get_alignment <- function(d){
-  d.alignment = group_by(d.expr2,promptID, model, model_size, model_type) %>%
+  d.alignment = group_by(d,promptID, model, model_size, model_type) %>%
     summarise(kappa = cohen.kappa(cbind(sumLP_ans, ans))$kappa)
   
   d.alignment$model = fct_reorder(d.alignment$model, d.alignment$model_size)
